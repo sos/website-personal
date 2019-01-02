@@ -41,13 +41,11 @@ public_path: assets/img
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-
 build:
   preview_command: hugo -D -F -E
   publish_command: hugo
-  output_directory: public
   preview_env:
   - HUGO_ENV=staging
-  publish_env: 
+  publish_env:
   - HUGO_ENV=production
-
+  output_directory: public
