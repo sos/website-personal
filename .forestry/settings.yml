@@ -16,6 +16,8 @@ sections:
   create: all
   templates:
   - post
+- type: heading
+  label: Bio
 - type: directory
   path: category
   label: Categories
